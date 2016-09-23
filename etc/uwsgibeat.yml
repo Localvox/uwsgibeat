@@ -1,14 +1,15 @@
 ################### uWSGIbeat Configuration Example #########################
 
 ############################# Input ############################################
-input:
-  # URL to uWSGI monitoring page.
-  # E.g. "tcp://127.0.0.1:1717", "unix:///tmp/stats.socket", "http://127.0.0.1:8080"
-  # Defaults to "tcp://127.0.0.1:1717".
-  url: "tcp://127.0.0.1:1717"
+uwsgibeat:
+  input:
+    # URL to uWSGI monitoring page.
+    # E.g. "tcp://127.0.0.1:1717", "unix:///tmp/stats.socket", "http://127.0.0.1:8080"
+    # Defaults to "tcp://127.0.0.1:1717".
+    url: "tcp://127.0.0.1:1717"
 
-  # In seconds, defines how often to read statistics.
-  period: 10
+    # In seconds, defines how often to read statistics.
+    period: 10
 
 
 ############################# Output ##########################################

@@ -1,41 +1,201 @@
 {
-	"ImportPath": "github.com/mrkschan/uwsgibeat",
-	"GoVersion": "go1.5.1",
+	"ImportPath": "github.com/Localvox/uwsgibeat",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
 	"Deps": [
 		{
-			"ImportPath": "github.com/elastic/libbeat/beat",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.10.1-10-gaf0513c",
+			"Rev": "af0513c4d97979eb876d201391fac6475ec08268"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/cfgfile",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.0.0-3-g6d21280",
+			"Rev": "6d212800a42e8ab5c146b8ace3490ee17e5225f9"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/common",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-4-gb86b1ec",
+			"Rev": "b86b1ec0dd4209a588dc1285cdd471e73525c0b3"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/logp",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/eapache/go-xerial-snappy",
+			"Rev": "bb955e01b9346ac19dc29eb16586c90ded99a98c"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/outputs",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.0.2-7-g44cc805",
+			"Rev": "44cc805cf13205b55f69e14bcb69867d1ae92f98"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/publisher",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/elastic/beats/libbeat/beat",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
 		},
 		{
-			"ImportPath": "github.com/elastic/libbeat/service",
-			"Comment": "v1.0.0-beta4-102-g61c7908",
-			"Rev": "61c7908055bd8313adf59991b72c05404d51a63d"
+			"ImportPath": "github.com/elastic/beats/libbeat/cfgfile",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/common",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/common/dtfmt",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/common/fmtstr",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/common/op",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/common/streambuf",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/logp",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/console",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/elasticsearch",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/fileout",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/kafka",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/logstash",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/mode",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/mode/lb",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/mode/modeutil",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/mode/single",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/outil",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/redis",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/outputs/transport",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/paths",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/processors",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/processors/actions",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/publisher",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/beats/libbeat/service",
+			"Comment": "v5.0.0-alpha4-391-g877232d",
+			"Rev": "877232d31c5bdb08380d591674d2e968bd667523"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-lumber/client/v2",
+			"Comment": "v0.1.0",
+			"Rev": "616041e345fc33c97bc0eb0fa6b388aa07bca3e1"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-lumber/log",
+			"Comment": "v0.1.0",
+			"Rev": "616041e345fc33c97bc0eb0fa6b388aa07bca3e1"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-lumber/protocol/v2",
+			"Comment": "v0.1.0",
+			"Rev": "616041e345fc33c97bc0eb0fa6b388aa07bca3e1"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-ucfg",
+			"Comment": "v0.3.6-1-gf68e111",
+			"Rev": "f68e111e1035a51815b85556e4682c1cb4009b58"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-ucfg/cfgutil",
+			"Comment": "v0.3.6-1-gf68e111",
+			"Rev": "f68e111e1035a51815b85556e4682c1cb4009b58"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-ucfg/flag",
+			"Comment": "v0.3.6-1-gf68e111",
+			"Rev": "f68e111e1035a51815b85556e4682c1cb4009b58"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-ucfg/json",
+			"Comment": "v0.3.6-1-gf68e111",
+			"Rev": "f68e111e1035a51815b85556e4682c1cb4009b58"
+		},
+		{
+			"ImportPath": "github.com/elastic/go-ucfg/yaml",
+			"Comment": "v0.3.6-1-gf68e111",
+			"Rev": "f68e111e1035a51815b85556e4682c1cb4009b58"
 		},
 		{
 			"ImportPath": "github.com/garyburd/redigo/internal",
@@ -46,13 +206,66 @@
 			"Rev": "3d0709611e0e29c05a4e925e8447b065abb4eef6"
 		},
 		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "d9eb7a3d35ec988b8585d4a0068e462c27d28380"
+		},
+		{
+			"ImportPath": "github.com/joeshaw/multierror",
+			"Rev": "69b34d4ec901851247ae7e77d33909caf9df99ed"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/flate",
+			"Comment": "v1.0-14-gd0763f1",
+			"Rev": "d0763f13d86e630f5d3ea9fa848a6ecc68255297"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/zlib",
+			"Comment": "v1.0-14-gd0763f1",
+			"Rev": "d0763f13d86e630f5d3ea9fa848a6ecc68255297"
+		},
+		{
+			"ImportPath": "github.com/klauspost/cpuid",
+			"Comment": "v1.0",
+			"Rev": "09cded8978dc9e80714c4d85b0322337b0a1e5e0"
+		},
+		{
+			"ImportPath": "github.com/klauspost/crc32",
+			"Comment": "v1.0",
+			"Rev": "19b0b332c9e4516a6370a0456e6182c3b5036720"
+		},
+		{
 			"ImportPath": "github.com/nranchev/go-libGeoIP",
 			"Rev": "c78e8bd2dd3599feb21fd30886043979e82fe948"
 		},
 		{
-			"ImportPath": "github.com/stretchr/testify/assert",
-			"Comment": "v1.0-51-gf3960ab",
-			"Rev": "f3960ab1f9664ecc4e27c78af27cc9063d745a43"
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.7.1-1-ga887431",
+			"Rev": "a887431f7f6ef7687b556dbf718d9f351d4858a0"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "b71dba47c7bf0374dfe3b67da7b5b702fa160a15"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Comment": "v1.1.0-1-g0aa62d5",
+			"Rev": "0aa62d5ddceb50dbcb909d790b5345affd3669b6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/proxy",
+			"Rev": "2fd7f1556cc0a4aa45f8aee9626ce303433f31eb"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows/svc/debug",
+			"Rev": "8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9"
 		},
 		{
 			"ImportPath": "gopkg.in/yaml.v2",

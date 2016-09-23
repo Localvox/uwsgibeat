@@ -1,21 +1,19 @@
 package main
 
 import (
-	"github.com/elastic/libbeat/beat"
+    "os"
+
+	"github.com/elastic/beats/libbeat/beat"
+
+    "github.com/Localvox/uwsgibeat/beater"
 )
 
 var Version = "1.0.0-beta1"
 var Name = "uwsgibeat"
 
 func main() {
-	ub := &Uwsgibeat{}
-
-	b := beat.NewBeat(Name, Version, ub)
-
-	b.CommandLineSetup()
-
-	b.LoadConfig()
-	ub.Config(b)
-
-	b.Run()
+	err := beat.Run(Name, Version, beater.New)
+    if err != nil {
+        os.Exit(1)
+    }
 }

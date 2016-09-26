@@ -10,7 +10,7 @@ import (
 	"github.com/elastic/beats/libbeat/logp"
 	"github.com/elastic/beats/libbeat/publisher"
 
-	"github.com/mrkschan/uwsgibeat/parser"
+	"github.com/Localvox/uwsgibeat/parser"
 )
 
 const selector = "uwsgibeat"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/elastic/libbeat/beat"
+	"github.com/elastic/beats/libbeat/beat"
 )
 
 var Version = "1.0.0-beta1"
